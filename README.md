@@ -43,3 +43,37 @@ Sistem ini menggunakan empat tabel utama, yaitu: clients, events, staffs, dan bo
 
 - Relasi 3: booking.event_id → events.id
   (Satu event bisa dibooking oleh banyak client)
+
+ 
+ ## Desain Program (Struktur MVVM )##
+
+ Penjelasan umum:
+ - models/      = Komunikasi dengan database
+ - viewmodels/  = Menangani request form, binding data
+ - views/       = Tampilan halaman web
+ - template/    = Komponen halaman yang dipakai di semua view
+ - index.php    = Routing halaman
+
+ 
+ 1. Model
+    Model adalah bagian yang bertanggung jawab untuk interaksi dengan database.
+    Fungsi utamanya:
+    - Mengambil semua data
+    - Mengambil data berdasarkan ID
+    - Menambah data (INSERT)
+    - Mengubah data (UPDATE)
+    - Menghapus data (DELETE)
+
+2. View
+   View adalah tampilan HTML + PHP yang digunakan pengguna untuk melihat dan mengelola data melalui browser.
+   Di View terdapat:
+   - Form tambah dan edit
+   - Tabel data
+   - Tombol aksi (Edit | Hapus)
+
+3. ViewModel
+   ViewModel menghubungkan View dan Model.
+   Tugas ViewModel:
+   - Menangani request ($_GET dan $_POST)
+   - Menjalankan fungsi CRUD di Model
+   - Mengirim data ke View
