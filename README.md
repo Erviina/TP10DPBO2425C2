@@ -77,3 +77,64 @@ Sistem ini menggunakan empat tabel utama, yaitu: clients, events, staffs, dan bo
    - Menangani request ($_GET dan $_POST)
    - Menjalankan fungsi CRUD di Model
    - Mengirim data ke View
+
+
+Alur Program
+
+Berikut alur logika program untuk setiap tabel:
+
+3.1 Alur Clients
+
+Pengguna masuk halaman Clients
+
+Data clients ditampilkan melalui $vm->clients
+
+Pengguna dapat:
+✔ tambah client
+✔ edit client
+✔ hapus client
+
+Data diproses melalui ViewModel → Model → Database
+
+3.2 Alur Events
+
+Pengguna membuka halaman Events
+
+Data event ditampilkan dalam tabel
+
+Pengguna dapat: tambah, edit, hapus
+
+Database menyimpan data melalui CRUD
+
+3.3 Alur Staff
+
+Halaman Staff menampilkan list semua staf
+
+Form tambah/edit staf terdapat dropdown event
+→ data binding event
+
+Jika form disubmit, ViewModel memanggil fungsi Model untuk INSERT/UPDATE
+
+3.4 Alur Booking
+
+Halaman Booking menampilkan list booking lengkap dengan:
+
+client name
+
+event name
+
+Form booking memiliki dropdown:
+
+client (FK)
+
+event (FK)
+
+Setelah submit, data tersimpan di tabel booking
+
+3.5 Integritas Data
+
+Staff harus memilih event (FK wajib)
+
+Booking harus memilih client dan event (FK wajib)
+
+Sehingga relasi database benar-benar digunakan.
