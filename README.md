@@ -117,9 +117,6 @@ Berikut alur logika program untuk setiap tabel:
 
 ## dokumentasi ##
 ![Tabel Desain](dokumentasi/event.gif)
-
 ![Tabel Desain](dokumentasi/clients.gif)
-
 ![Tabel Desain](dokumentasi/booking.gif)
-
 ![Tabel Desain](dokumentasi/staff.gif)
