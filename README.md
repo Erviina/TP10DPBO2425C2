@@ -116,7 +116,8 @@ Berikut alur logika program untuk setiap tabel:
      Sehingga relasi database benar-benar digunakan.
 
 ## dokumentasi ##
+![Tabel Desain](dokumentasi/staff.gif)
 ![Tabel Desain](dokumentasi/event.gif)
 ![Tabel Desain](dokumentasi/clients.gif)
 ![Tabel Desain](dokumentasi/booking.gif)
-![Tabel Desain](dokumentasi/staff.gif)
+
