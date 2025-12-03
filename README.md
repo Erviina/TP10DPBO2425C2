@@ -1,6 +1,8 @@
 Saya Ervina Kusnanda dengan NIM 2409082 mengerjakan Tugas Praktikum 10 dalam mata kuliah Desain Pemogramana Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 ## Desain Tabel (Database Design) ##
+
+![Tabel Desain]!(https://github.com/Erviina/TP10DPBO2425C2/blob/main/dokumentasi/desain%20TP10.png?raw=true).
 Sistem ini menggunakan empat tabel utama, yaitu: clients, events, staffs, dan bookings. Masing-masing tabel memiliki minimal dua atribut, dan terdapat relasi relasional menggunakan primary key – foreign key sesuai ketentuan.
 
 1. Tabel Clients
@@ -45,7 +47,7 @@ Sistem ini menggunakan empat tabel utama, yaitu: clients, events, staffs, dan bo
   (Satu event bisa dibooking oleh banyak client)
 
  
- ## Desain Program (Struktur MVVM )##
+ ## Desain Program (Struktur MVVM) ##
 
  Penjelasan umum:
  - models/      = Komunikasi dengan database
