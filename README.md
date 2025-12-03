@@ -2,7 +2,8 @@ Saya Ervina Kusnanda dengan NIM 2409082 mengerjakan Tugas Praktikum 10 dalam mat
 
 ## Desain Tabel (Database Design) ##
 
-![Tabel Desain]!(https://github.com/Erviina/TP10DPBO2425C2/blob/main/dokumentasi/desain%20TP10.png?raw=true).
+![Tabel Desain](dokumentasi/desain TP10.png).
+
 Sistem ini menggunakan empat tabel utama, yaitu: clients, events, staffs, dan bookings. Masing-masing tabel memiliki minimal dua atribut, dan terdapat relasi relasional menggunakan primary key – foreign key sesuai ketentuan.
 
 1. Tabel Clients
