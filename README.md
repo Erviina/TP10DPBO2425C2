@@ -118,6 +118,6 @@ Berikut alur logika program untuk setiap tabel:
 ## dokumentasi ##
 
 ![Tabel Desain](dokumentasi/event.gif)
-![Tabel Desain](dokumentasi/clients.gif)
+![Tabel Desain](dokumentasi/client.gif)
 ![Tabel Desain](dokumentasi/booking.gif)
-![Tabel Desain](https://github.com/Erviina/TP10DPBO2425C2/blob/main/dokumentasi/staff.gif?raw=true)
+![Tabel Desain](dokumentasi/staff.gif)
